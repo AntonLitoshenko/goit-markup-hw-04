@@ -123,6 +123,13 @@ img {
 }
 /* ==========HERO========== */
 .hero {
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+     ),
+    url(../img/hero/bg.jpg);
+  background-color: #C4C4C4;
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -162,9 +169,6 @@ img {
 .modal-btn:focus {
   background-color: #188ce8;
 }
-.hero {
-  background-color: #2f303a;
-}
 
 /* ==========ADVANTAGE========== */
 .advantage-list-title {
@@ -182,6 +186,16 @@ img {
 }
 .advantage-list {
   --card-item: 4;
+}
+.advantage-list-link {
+display: flex;
+align-items: center;
+justify-content: center;
+background: #F5F4FA;
+border: 1px;
+box-sizing: border-box;
+border-radius: 4px;
+margin-bottom: 30px;
 }
 
 /* ==========ABOUT========== */
@@ -208,6 +222,9 @@ img {
   line-height: 1.19;
   text-align: center;
 }
+.team-discription{
+  margin-bottom: 16px;
+}
 
 .team {
   background-color: #f5f4fa;
@@ -224,7 +241,63 @@ img {
 .team-card {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
+.social-list{
+  display: flex;
+  justify-content:space-between;
+}
+.social-list-icon{
+  fill: #AFB1B8;
+}
+
+.social-list-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+fill: #ffffff;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+background-color: var(--accent-color);
+}
+
+/*===========CLIENTS===========*/
+.client-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-list-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-list-icon{
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.client-list-item:not(:last-child){
+  margin-right: 30px;
+}
+.client-list-link:hover .client-list-icon,
+.client-list-link:focus .client-list-icon {
+  fill:var(--accent-color)
+}
+.client-list-icon:hover ,
+.client-list-icon:focus {
+  border-color: var(--accent-color);
+}
+
 /* ==========FOOTER========== */
 .address {
   font-weight: var(--secondary-font-waight);
