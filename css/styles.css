@@ -195,7 +195,7 @@ img {
 .advantage-list {
   --card-item: 4;
 }
-.advantage-list-link {
+.advantage-icon {
 display: flex;
 align-items: center;
 justify-content: center;
@@ -207,8 +207,8 @@ margin-bottom: 30px;
 width: 270px;
 height: 120px;
 }
-.advantage-list-link:hover,
-.advantage-list-link:focus{
+.advantage-icon:hover,
+.advantage-icon:focus{
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
