@@ -32,10 +32,20 @@
             </nav>
             <ul class="header-contacts list">
                 <li class="header-contacts-item">
-                    <a class="nav-list-link contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="nav-list-link contacts-link link" href="mailto:info@devstudio.com">
+                        <svg class="nav-list-icon" width="16" height="12">
+                            <use href="./img/sprite.svg#envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
                 </li>
                 <li class="header-contacts-item">
-                    <a class="nav-list-link contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="nav-list-link contacts-link link" href="tel:+380961111111">
+                        <svg class="nav-list-icon" width="10" height="16">
+                            <use href="./img/sprite.svg#smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
                 </li>
             </ul>
         </div>
@@ -63,7 +73,7 @@
                 </ul>
                 <ul class="projects-list card-set list">
                     <li class="projects-list-item card-set-item">
-                        <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                        <a class="projects-link link" href="" target="_blank" rel="noreferrer noopener">
                             <img src="./img/img_one.jpg" alt="Фото сайта технокряк" width="370" height="294">
                             <div class="projects-card">
                                 <h2 class="projects-title">Технокряк</h2>
@@ -72,7 +82,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item card-set-item">
-                        <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                        <a class="projects-link link" href="" target="_blank" rel="noreferrer noopener">
                             <img src="./img/img_two.jpg" alt="Фото постера" width="370" height="294">
                             <div class="projects-card">
                                 <h2 class="projects-title">Постер <span lang="en">Orlean vs Golden Star</span> </h2>
@@ -81,7 +91,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item card-set-item">
-                        <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                        <a class="projects-link link" href="" target="_blank" rel="noreferrer noopener">
                             <img src="./img/img_three.jpg" alt="Логотип ресторана" width="370" height="294">
                             <div class="projects-card">
                                 <h2 class="projects-title">Ресторан <span lang="en">Seafood</span> </h2>
@@ -90,7 +100,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item card-set-item">
-                        <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                        <a class="projects-link link" href="" target="_blank" rel="noreferrer noopener">
                             <img src="./img/img_four.jpg" alt="Фото проекта прайм" width="370" height="294">
                             <div class="projects-card">
                                 <h2 class="projects-title">Проект <span lang="en">Prime</span> </h2>
@@ -99,7 +109,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item card-set-item">
-                        <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                        <a class="projects-link link" href="" target="_blank" rel="noreferrer noopener">
                             <img src="./img/img_five.jpg" alt="Фото проекта коробки" width="370" height="294">
                             <div class="projects-card">
                                 <h2 class="projects-title">Проект <span lang="en">Boxes</span> </h2>
@@ -108,7 +118,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item card-set-item">
-                        <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                        <a class="projects-link link" href="" target="_blank" rel="noreferrer noopener">
                             <img src="./img/img_six.jpg" alt="Фото сайта вдохновление" width="370" height="294">
                             <div class="projects-card">
                                 <h2 class="projects-title" lang="en">Inspiration has no Borders</h2>
@@ -117,7 +127,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item card-set-item">
-                        <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                        <a class="projects-link link" href="" target="_blank" rel="noreferrer noopener">
                             <img src="./img/img_seven.jpg" alt="Фото дизайна" width="370" height="294">
                             <div class="projects-card">
                                 <h2 class="projects-title">Издание <span lang="en">Limited Edition</span> </h2>
@@ -126,7 +136,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item card-set-item">
-                        <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                        <a class="projects-link link" href="" target="_blank" rel="noreferrer noopener">
                             <img src="./img/img_eight.jpg" alt="Фото логотипа проекта" width="370" height="294">
                             <div class="projects-card">
                                 <h2 class="projects-title">Проект <span lang="en">LAB</span> </h2>
@@ -135,7 +145,7 @@
                         </a>
                     </li>
                     <li class="projects-list-item card-set-item">
-                        <a class="link" href="" target="_blank" rel="noreferrer noopener">
+                        <a class="projects-link link" href="" target="_blank" rel="noreferrer noopener">
                             <img src="./img/img_nine.jpg" alt="Фото работы приложения" width="370" height="294">
                             <div class="projects-card">
                                 <h2 class="projects-title" lang="en">Growing Business</h2>
@@ -147,7 +157,8 @@
             </div>
         </section>        
     </main>
-    <footer class="container footer">
+    <footer class="footer">
+        <div class="container footer-rotation">
         <div class="footer-container">
             <a class="logo link" href="">Web<span class="logo-footer">Studio</span> </a>
             <address class="address">
@@ -197,6 +208,7 @@
                     </a>
                 </li>
             </ul>
+        </div>
         </div>
     </footer>
 </body>
